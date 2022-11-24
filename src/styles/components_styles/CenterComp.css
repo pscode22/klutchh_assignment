@@ -1,0 +1,136 @@
+.heroBox{
+    width: 100%;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.heroHeader {
+    width: 100%;
+    min-height: 61px;
+    background: rgba(255, 254, 255, 0.2);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 22px;
+    letter-spacing: -0.41px; 
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+.heroHeader>p {
+    margin-left: 34px;
+}
+
+.heroContent{
+    width: 100%;
+    /* height: calc(632px - 61px); */
+    background: #211134;
+    border: 0;
+    padding-bottom: 20px;
+}
+
+/*--------------------------------------*/
+
+.creditBox{
+    display: flex;
+    justify-content: center;
+    padding-top: 12px;
+}
+
+.creditScoreCard {
+    background: #351b53;
+    border: 1px solid rgba(235, 235, 245, 0.3);
+    border-radius: 24px;
+    width: 224px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+
+
+.teamInfo {
+    min-height: 450px;
+    /* border: 1px solid red; */
+    padding-top: 10px;
+}
+
+.teamNames {
+    height: 72px;
+    display: grid;
+    /* border: 1px solid #FFFFFF; */
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+}
+
+.team {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.versus {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    margin: 0 20px 0 20px;
+}
+
+/* ------------------------------------*/
+
+.playerInfo {
+    /* border: 1px solid white; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 0 20px 0 20px;
+}
+
+.cardCollection {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.playerCard {
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 4px 4px 4px 4px;
+    cursor: pointer;
+}
+
+.playerImage {
+    width: 120px;
+    background: #211134;
+    border: 0.5px solid #FFFFFF;
+    border-radius: 4px;
+}
+
+.playerDetails {
+    width: 100%;
+    height: 100%;
+}
+
+.playerName {
+    background: rgba(255, 255, 255, 0.2);
+    border-top-right-radius: 4px;
+    color: #FFFFFF;
+}
+
+.playerName, .playerCredit {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.playerCredit {
+    height: 40%;
+    background: rgba(255, 255, 255, 0.1);
+    border-bottom-right-radius: 4px;
+    color: #FF326A;
+}
